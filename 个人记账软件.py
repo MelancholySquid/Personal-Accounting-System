@@ -15,8 +15,8 @@ class PersonalAccountingSystem:
         try:
             self.connection = mysql.connector.connect(
                 host='localhost',
-                user='Squid',
-                password='Yuki0506',
+                user='***',
+                password='***',
                 database='personal_accounting'
             )
             print('数据库连接成功')
@@ -495,3 +495,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+
